@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #7e5656;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .business-card {
+    background-color: #c0aceb;
+    border-radius: 15px;
+    padding: 25px;
+    width: 420px;
+    box-shadow: 0 8px 16px rgba(189, 6, 6, 0.1);
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .business-card:hover {
+    transform: scale(1.03);
+  }
+  
+  .avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  
+  .name {
+    font-size: 2.5rem;
+    margin: 10px 0 5px;
+  }
+  
+  .title {
+    font-size: 2rem;
+    color: #777;
+    margin-bottom: 1px;
+    margin-top: 10px;
+  }
+  .Gmail{
+    margin-top: 2.5px;
+    margin-bottom: 1px;
+  }
+  
+  .contact {
+    margin: 5px 0;
+    font-size: 1rem;
+    color: #932883;
+    margin-bottom: 10px;
+  }
+  
+  .social-links a {
+    margin: 0 10px;
+    color: #577e93;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+   
+  }
+  
+  .social-links a:hover {
+    color: #005582;
+  }
+  
